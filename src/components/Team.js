@@ -55,12 +55,13 @@ const Role = styled.p`
 `
 
 const data = [
-  { name: 'Dustin aka Kronic', role: 'Founder and CEO', img: portrait1 },
+  { name: 'Dustin "Kronic" Turska', role: 'Founder and CEO', img: portrait1 },
   { name: 'Lance', role: 'Chief Financial Officer', img: portrait4 },
   { name: 'Penny', role: 'Chief Communications Officer', img: portrait6 },
   { name: 'Aiden', role: 'Chief Technology Officer', img: portrait3 },
-  { name: 'Tetsuo', role: 'Lead Web Developer / Audio Solutions', img: portrait2 },
-  { name: 'Kronic', role: 'Blockchain Developer', img: portrait5 }
+  { name: 'Tetsuo', role: 'Web Developer / Audio Solutions', img: portrait2 },
+  { name: 'Jack "Rxbbn" Prosser', role: 'Full Stake Developer', img: portrait5 }
+
 ]
 
 const Team = () =>
