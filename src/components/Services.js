@@ -33,21 +33,21 @@ const Grid = styled.div`
   }
 `
 
-const Title = styled.h2`
-  padding: 0vh 15vw 0vh 15vw;
-  color: White;
+const Title = styled.h3`
+  padding: 0vh 8vw 2vh 8vw;
+  color: white;
 `
 
 const Paragraph = styled.p`
-  padding: 0vh 15vw 0vh 15vw;
+  padding: 0vh 8vw 2vh 8vw;
   width: 80vw;
-  color: White;
+  color: #a2a7af;
   font-size: 15px;
 `
 
 const Column = styled.div`
-  padding: 0vh 15vw 0vh 15vw;
-  color: White;
+  padding: 0vh 8vw 2vh 8vw;
+  color: #a2a7af;
   padding: 10px;
   font-size: 15px;
 `
@@ -60,15 +60,18 @@ const Services = () =>
       </center>
     </Header>
     <Main>
+      <center>
       <Paragraph>
-        <Title>Security Audits</Title>
+        <center>
+          <Title>Security Audits</Title>
+        </center>
       </Paragraph>
       <Paragraph> 
-        <h3>ERC20/721/1155 Standard Audit</h3>
+        <h4>ERC20/721/1155 Standard Audit</h4>
         <p>
           Trying to get your NFT or token projects smart contract verfied on etherscan?, well the standard audit is just for you. Accepted by etherscan, CoinMarketCap, Coin Gecko and many others requiring a security audit before listing. The price is $1,100 per contract with roughly a 12-24 hour turnaround time. 
         </p>
-        <h3>DEEP Dive Audit</h3>
+        <h4>DEEP Dive Audit</h4>
         <p>
           Have a large project like a marketplace or exchange? DEEP dive audits cover every single aspect of a smart contract or contracts, to ensure the security of your project. DEEP dive audits start at $2,100.00 per smart contract and have a typical completion time of 48-72 hours.
         </p>
@@ -76,20 +79,13 @@ const Services = () =>
           Each and every security audit completed is visible for public view on our github https://github.com/KronicLabz/KronicLabz-MythX-Security-Audits
         </p>
       </Paragraph>
-      <Title>NFT and Token Projects</Title>
-      <Paragraph>  
-        NFT art creation, NFT art generation, Branding and design, Staking and governance, Tokenization, ICO development, Project sale development, Project sale auditing, Project sale marketing, Discord security maintanence, Social media campaign development, Networking and community management
-      </Paragraph>
-      <Title>Educational and Mentoring Services</Title>
       <Paragraph>
-        KronicLabz also offers educational content and mentorship services free 
-        for all KronicKatz NFT holders and approved partner projects through our 
-        educational platform MetaTec. For more information, please email us at
-        info.metatec@kroniclabz.com 
+        <center>
+          <Title>Development Services</Title>
+        </center>
       </Paragraph>
-      <Title>Other Services</Title>
       <Paragraph>
-        <h3>Smart Contract Development Services</h3>
+        <h4>Smart Contract Development Services</h4>
         <p>ERC721/1155 NFT contracts are a standard flat rate $3,200 up front OR $1,200 deposit and 10% of sales from mint (does not apply to secondary sales or royalties) add additional $800 for single page minting site addition $350 per additional page </p>
         <p>-erc20 staking contract w/dapp $4,500</p>
         <p>-erc721 staking contract w/dapp $6,000</p>
@@ -97,30 +93,62 @@ const Services = () =>
         <p>-decentralized exchange, example, uniswap, base rate of $45.00/hr with non refundable deposit of $2,500 upfront</p>
         <p>-Custom Blockchain development base rate of $45.00/hr plus terms(varies based of each situation)</p>
       </Paragraph>
+      <Paragraph>
+        <center>
+          <Title>NFT and Token Projects</Title>
+        </center>
+      </Paragraph>
+      <Paragraph>  
+        NFT art creation, NFT art generation, Branding and design, Staking and governance, Tokenization, ICO development, Project sale development, Project sale auditing, Project sale marketing, Discord security maintanence, Social media campaign development, Networking and community management
+      </Paragraph>
+      <Paragraph>
+        <center>
+          <Title>Educational and Mentoring Services</Title>
+        </center>
+      </Paragraph>
+      <Paragraph>
+        KronicLabz also offers educational content and mentorship services free 
+        for all KronicKatz NFT holders and approved partner projects through our 
+        educational platform MetaTec. For more information, please email us at
+        info.metatec@kroniclabz.com 
+      </Paragraph>
+      </center>
     </Main>
     <Grid>
       <Column>
-        <h3>ERC-1155 Dyl</h3>
+        <center>
+          <h4>ERC-1155 Dyl</h4>
+        </center>
         <p>
-          Known as the Forever Contract, the ERC1155Dyl gives creatives the 
-          freedom and independence to create and distribute their own digital
-          without having to rely on a marketplace lazy mint function.
+          <center>
+            Known as the Forever Contract, the ERC1155Dyl gives creatives the 
+            freedom and independence to create and distribute their own digital
+            without having to rely on a marketplace lazy mint function.
+          </center>
         </p>
       </Column>
       <Column>
-        <h3>Lottery NFTs</h3>
+        <center>
+          <h4>Lottery NFTs</h4>
+        </center>
         <p>
-          Want to keep your community active and involved during the bear market?
-          How about an NFT that gifts rewards every mint and keeps liquidity 
-          within the community! Check out our Manic Mouse Millions contract!
+          <center>
+            Want to keep your community active and involved during the bear market?
+            How about an NFT that gifts rewards every mint and keeps liquidity 
+            within the community! Check out our Manic Mouse Millions contract!
+          </center>
         </p>
       </Column>
       <Column>
-        <h3>Launch Pad Services</h3>
+        <center>
+          <h4>Launch Pad Services</h4>
+        </center>
         <p>
-          Yep! We even provide project launch pad services too! From concept, 
-          art and design, to contract creation and social media campaign and
-          promotions, KronicLabz has you covered there as well.
+          <center>
+            Yep! We even provide project launch pad services too! From concept, 
+            art and design, to contract creation and social media campaign and
+            promotions, KronicLabz has you covered there as well.
+          </center>
         </p>
       </Column>
     </Grid>

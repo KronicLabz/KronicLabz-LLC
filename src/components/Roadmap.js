@@ -42,6 +42,11 @@ const Portrait = styled.img`
   width: 220px;
 `
 
+const Image = styled.img`
+  width: ${props => props.width};
+  height: ${props => props.height};
+`
+
 const Name = styled.h4`
   margin: 10px 0 5px 0;
   padding: 0;
