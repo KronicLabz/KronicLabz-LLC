@@ -1,7 +1,3 @@
-# Faux Blockchain Services
+# KronicLabz LLC Blockchain Services
 
-A website design/mockup for an imaginary blockchain services company.
-
-This is for demonstration purposes only.
-
-Copyright © 2018 Jose Dario Sanchez. All rights reserved.
+<img width="1418" alt="logo" src="https://user-images.githubusercontent.com/86588710/180582459-224c35c6-aa3e-4c42-b5d4-108137827d9a.png">
