@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Mina:700|Oxygen:300');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: calc(12px + 0.5vw);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Mina', sans-serif;
+}
+
+p {
+  font-family: 'Oxygen', sans-serif;
+}
+
+svg {
+  margin-right: 2vw;
+  cursor: pointer;
+}
+
+@media (max-width: 699px) {
+  svg {
+    margin-left: 2vw;
+  }
+}
