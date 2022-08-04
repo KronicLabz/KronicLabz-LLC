@@ -8,10 +8,10 @@
     "gsap": "^1.20.4",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-embed": "^3.6.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.1",
-    "styled-components": "^3.2.3",
-    "fsevents": "^2.3.2"
+    "styled-components": "^3.2.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -23,7 +23,6 @@
   },
   "description": "KronicLabz Web3 dev site",
   "main": "index.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/KronicLabz/KronicLabz-LLC/upload/main"

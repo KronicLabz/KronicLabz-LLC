@@ -69,9 +69,9 @@ const Footer = () =>
       <Column>
         <h4>ABOUT</h4>
         <FooterLink to='/'><p>Contact Us</p></FooterLink>
-        <FooterLink to='/'><p>Services</p></FooterLink>
+        <FooterLink to='/services'><p>Services</p></FooterLink>
         <FooterLink to='/'><p>Careers</p></FooterLink>
-        <FooterLink to='/'><p>Team</p></FooterLink>
+        <FooterLink to='/team'><p>Team</p></FooterLink>
         <FooterLink to='/'><p>FAQ</p></FooterLink>
       </Column>
       <Column>

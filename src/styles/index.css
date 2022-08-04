@@ -31,3 +31,9 @@ svg {
     margin-left: 2vw;
   }
 }
+
+iframe {
+  border: none;
+  background-color: black;
+  theme-color: black;
+}
