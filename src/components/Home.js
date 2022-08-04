@@ -5,6 +5,7 @@ import Particles from '../containers/Particles'
 
 const blockchainImg = require('../media/blockchain.png')
 const globeImg = require('../media/globe.png')
+const metaTec = require('../media/MetaTec.PNG')  
 
 const HomeWrapper = styled.div`
   width: 100vw;
@@ -20,6 +21,19 @@ const Banner = styled.div`
   width: 100vw;
   height: 100vh;
   background: linear-gradient(to bottom right, #2b3548, #0d1222);
+`
+const Banner2 = styled.div`
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 50vh;
+  background-image: url(${metaTec});
+  background-size: cover;
+  background-position: center;
+  border: 3px solid white;
 `
 
 const Header = styled.div`
@@ -110,6 +124,22 @@ const ItemDescription = styled.p`
   color: #a2a7af;
 `
 
+const Section3 = styled.div`
+  padding: 5vh 15vw 5vh 15vw;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr
+  text-align: center;
+  background: #202124;
+`
+
+const Section4 = styled.div`
+  padding: 5vh 15vw 5vh 15vw;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr
+  text-align: center;
+  background: #202124;
+`
+
 
 const Home = () =>
   <HomeWrapper>
@@ -141,7 +171,26 @@ const Home = () =>
         </Description>
       </Column>
     </Section1>
+    <Banner2>
+      </Banner2>
     <Section2>
+      <Column>
+      </Column>
+      <Column>
+      <p>
+      </p>
+      <div> 
+        <iframe
+          src="https://kroniclabz.mypinata.cloud/ipfs/QmUfp6thZQTmNKS6tzijJpxdoBe9X7spHwzRjUh3RPTAwF/token-drop.html?contract=0xE50A259592D3BaBbA4d874Ca3EA87E88BC8b086F&chainId=1&theme=dark"
+          width="1000px"
+          height="600px"
+          Style={"max-width:100%"}
+          frameborder="14"
+        ></iframe>
+      </div>
+      </Column>
+    </Section2>
+    <Section3>
       <Column>
         <ItemHeading>44k</ItemHeading>
         <ItemDescription>NFTs Created</ItemDescription>
@@ -162,7 +211,11 @@ const Home = () =>
         <ItemHeading>985</ItemHeading>
         <ItemDescription>KronicKatz holders, and growing!</ItemDescription>
       </Column>
-    </Section2>
+    </Section3>
+    <Section4>
+      <Column>
+      </Column>
+    </Section4>
   </HomeWrapper>
 
 export default Home
