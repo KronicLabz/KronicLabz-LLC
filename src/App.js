@@ -1,14 +1,14 @@
-import React, { Component } from 'react'
-import { BrowserRouter, Route } from 'react-router-dom'
-import styled from 'styled-components'
+import React, { Component } from "react";
+import { BrowserRouter, Route } from "react-router-dom";
+import styled from "styled-components";
 
-import Menu from './components/Menu'
-import Home from './components/Home'
-import Services from './components/Services'
-import Team from './components/Team'
-import Roadmap from './components/Roadmap'
-import Footer from './components/Footer'
-
+import Menu from "./components/Menu";
+import Home from "./components/Home";
+import Services from "./components/Services";
+import Team from "./components/Team";
+import Roadmap from "./components/Roadmap";
+import MetaTecToken from "./components/MetaTecToken";
+import Footer from "./components/Footer";
 
 const AppWrapper = styled.div`
   position: relative;
@@ -17,7 +17,7 @@ const AppWrapper = styled.div`
   justify-content: center;
   align-items: center;
   width: 100vw;
-`
+`;
 
 class App extends Component {
   render() {
@@ -25,15 +25,16 @@ class App extends Component {
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <AppWrapper>
           <Menu />
-          <Route exact path='/' component={Home}/>
-          <Route exact path='/services' component={Services}/>
-          <Route exact path='/team' component={Team}/>
-          <Route exact path='/roadmap' component={Roadmap}/>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/services" component={Services} />
+          <Route exact path="/team" component={Team} />
+          <Route exact path="/roadmap" component={Roadmap} />
+          <Route exact path="/metatectoken" component={MetaTecToken} />
           <Footer />
         </AppWrapper>
       </BrowserRouter>
-    )
+    );
   }
 }
 
-export default App
+export default App;
